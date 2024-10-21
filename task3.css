@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.header{
+    background-color: pink;
+    font-size: 1.5rem;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    padding: 5px;
+    text-align: center;
+    z-index: 1;
+}
+article h3{
+    background-color: rebeccapurple;
+    font-size: 1.5rem;
+    text-align: center;
+    position: sticky;
+    padding: 5px;
+    top: 63px;
+    
+}
+.div>h3{
+    margin-top: 63px;
+}
+p{
+    text-align: justify;
+   padding: 5px;
+}

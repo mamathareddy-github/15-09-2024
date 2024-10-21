@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+}
+.container>img{
+   width: 100%; 
+   position: relative;
+}
+header{
+   width: 100%;
+    font-size: 20px;
+    padding: 10px;
+    position: fixed;
+    box-shadow: 2px 2px 5px;
+   z-index: 2;
+   background-color: white;
+    top: 0px;
+}
+.br:hover{
+     background-color: whitesmoke;
+    
+}
+.Projects{
+    margin-left: 680px;
+}
+.Projects:hover,.about:hover,.contanct:hover{
+    background-color: whitesmoke;
+   
+}
+.about,.contanct{
+    margin-left: 10px;
+}
+.br,.Projects,.about,.contanct{
+    padding: 10px;
+}
+.subcontainer,.subcontainer-1{
+    display: inline-block;
+    color: white;
+    margin-top: auto;
+   vertical-align: middle;
+   position: absolute;
+   margin-top: 400px;
+    z-index: 1;
+    font-size: 30px;
+}
+.subcontainer{
+    background-color: black;
+    margin-left: 590px;
+    
+}
+.subcontainer-1{
+    position: absolute;
+    margin-left: 650px;
+}
+.container-2{
+    margin: 20px;
+}
+section{
+    display: inline-block;
+    position: relative;
+}
+section>img{
+    width: 100%;
+    width: 300px;
+}
+p{
+  color: white;  
+  background-color: black;
+  width: auto;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+}
+main{
+    margin-top: 50px;
+}

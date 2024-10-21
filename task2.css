@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container>h1{
+    background-color: pink;
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 1;
+}
+.container>p{
+    padding: 10px;
+    margin-top: 54px;
+    text-align: justify;
+    margin-left: 220px;
+}
+.div{
+    font-size: 2rem;
+    background-color: greenyellow;
+    padding: 10px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100vh;
+    margin-top: 54px;
+    color: white;
+}
+li{
+    padding: 10px;
+}
